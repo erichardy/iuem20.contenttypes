@@ -28,6 +28,7 @@ dans section [instance], ajout des modules::
        ..
        plone.reload
        plonetheme.iuem20
+       plone.reload
        ..
 
    environment-vars =
