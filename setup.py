@@ -43,6 +43,11 @@ setup(
         'setuptools',
         'z3c.jbot',
         'plone.app.dexterity',
+        'iuem20.portrait',
+        'iuem20.mission',
+        'iuem20.project',
+        'iuem20.portfolio',
+        'iuem20.studysite',
     ],
     extras_require={
         'test': [

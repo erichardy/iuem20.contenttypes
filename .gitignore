@@ -1,4 +1,5 @@
 .settings
+.DS_Store
 .coverage
 *.egg-info
 *.log

@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
+from iuem20.contenttypes.testing import IUEM20_CONTENTTYPES_ACCEPTANCE_TESTING  # noqa
 from plone.app.testing import ROBOT_TEST_LEVEL
 from plone.testing import layered
-from iuem20.contenttypes.testing import IUEM20_CONTENTTYPES_ACCEPTANCE_TESTING  # noqa
 
 import os
 import robotsuite

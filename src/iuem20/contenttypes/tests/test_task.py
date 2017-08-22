@@ -1,10 +1,10 @@
 # -*- coding: utf-8 -*-
+from iuem20.contenttypes.interfaces import ITask
+from iuem20.contenttypes.testing import IUEM20_CONTENTTYPES_INTEGRATION_TESTING  # noqa
 from plone import api
 from plone.app.testing import setRoles
 from plone.app.testing import TEST_USER_ID
 from plone.dexterity.interfaces import IDexterityFTI
-from iuem20.contenttypes.interfaces import ITask
-from iuem20.contenttypes.testing import IUEM20_CONTENTTYPES_INTEGRATION_TESTING  # noqa
 from zope.component import createObject
 from zope.component import queryUtility
 

@@ -3,5 +3,10 @@
   <version>1000</version>
   <dependencies>
     <dependency>profile-plone.app.dexterity:default</dependency>
+    <dependency>profile-iuem20.portrait:default</dependency>
+    <dependency>profile-iuem20.mission:default</dependency>
+    <dependency>profile-iuem20.project:default</dependency>
+    <dependency>profile-iuem20.portfolio:default</dependency>
+    <dependency>profile-iuem20.studysite:default</dependency>
   </dependencies>
 </metadata>
