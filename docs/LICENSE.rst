@@ -1,3 +1,8 @@
+
+=======
+LICENSE
+=======
+
 iuem20.contenttypes Copyright 2017, Eric Hardy
 
 This program is free software; you can redistribute it and/or

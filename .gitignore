@@ -1,4 +1,5 @@
 .settings
+docs/html/
 .DS_Store
 .coverage
 *.egg-info

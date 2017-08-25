@@ -1,44 +1,41 @@
 
-.. include:: links.rst
+====================================
+Documentation de iuem20.contenttypes
+====================================
+.. _IUEM: http://www-iuem.univ-brest.fr
+.. _DocPlone: http://docs.plone.org/about/documentation_styleguide_addons.html
+.. _Sphinx: http://sphinx-doc.org/
 
-===================
-iuem20.contenttypes
-===================
+Documentation de ``iuem20.contenttypes`` développé par Eric Hardy pour l'`IUEM`_.
 
+Voir les recommandations pour la documentation a `DocPlone`_
 
-Adapatation des ``buildout.cfg``
-
-Modification de la version de plone ::
-
-   extends = http://dist.plone.org/release/5.0.8/versions.cfg
-
-
-ajout des lignes ::
-   sources = sources
-   auto-checkout =
-      plonetheme.iuem20
-   
-   always-checkout = False
-   [sources]
-   plonetheme.iuem20 = fs plonetheme.iuem20 path=..
-
-dans section [instance], ajout des modules::
-
-   eggs =
-       ..
-       plone.reload
-       plonetheme.iuem20
-       plone.reload
-       ..
-
-   environment-vars =
-       zope_i18n_compile_mo_files true
-
-correction de la version de flake8 ::
-
-   # flake8 = 3.0.4
-   flake8 = 3.3.0
-
-ajout de .settings dans .gitignore
+Voir aussi Sphinx : `Sphinx`_
 
 
+Installation
+============
+Ajouter *iuem20.contenttypes* à la liste definie par la variable ``eggs`` dans la
+section ``[instance]`` du fichier *buildout.cfg*
+
+et une source valide dans la section ``[sources]`` par exemple::
+
+   iuem20.contenttypes = git gitiuem:iuem20.contenttypes.git
+
+Motivation
+==========
+
+Le module ``iuem20.contenttypes``
+
+
+
+Toute la documentation
+======================
+
+.. toctree::
+    :maxdepth: 2
+
+    Le README du package <README>
+    Les types de contenu <content_types>
+    Les portraits <portrait>
+    LICENSE <LICENSE>
